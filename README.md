@@ -1,2 +1,3 @@
 # stebas101.github.io
-github pages test
+
+This is a **test** website for my new blog
