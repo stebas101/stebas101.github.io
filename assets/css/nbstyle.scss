@@ -1,0 +1,59 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+@import "minima";
+
+.mytestclass {
+  color: red;
+  font-size: 20px;
+  font-family: cursive !important;
+}
+
+div.input {
+  display: box;
+  box-orient: horizontal;
+  box-align: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+}
+
+div.input_prompt {
+  color: #303F9F;
+}
+
+.prompt {
+  min-width: 14ex;
+  padding: 0.4em;
+  margin: 0px;
+  text-align: right;
+  font-family: monospace;
+  line-height: 1.21429em;
+}
+
+div.input_area {
+  border: 1px solid #cfcfcf;
+  border-radius: 2px;
+  background: #f7f7f7;
+  line-height: 1.21429em;
+  box-sizing: border-box;
+  display: block;
+  font-size: 14px;
+}
+
+.input_area div.highlighter-rouge {
+    background-color: #f7f7f7  !important;
+  }
+  
+.output_stream, .output_data_text, .output_traceback_line {
+  margin-left: 2% !important;
+  border: none !important;
+  border-radius: 4px !important;
+  background-color: #fafafa !important;
+  box-shadow: none !important;
+}
+
+.output_stream:before, .output_data_text:before, .output_traceback_line:before{
+  content: none !important;
+}
