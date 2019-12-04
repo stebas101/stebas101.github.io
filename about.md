@@ -4,15 +4,10 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+My name is Stefano Basurto and I am an Investment Researcher based in London, UK.
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I am a lifelong learner and passionate about finding new ways to apply data science techniques to make investment decisions, study financial and economic data and develop insights on our world.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+This website is my blog where I plan to share some of my work with you. I hope you find it useful.
 
-
-[jekyll-organization]: https://github.com/jekyll
+I received a _laurea magistrale_ degree in Economics (Monetary and Financial Economics) from Bocconi University (Milan, Italy). I am currently a CFA Charterholder, member of the [CFA Institute](https://www.cfainstitute.org) and Full Member of the [Society of Technical Analysts](https://www.sta-uk.org/) in the UK.
