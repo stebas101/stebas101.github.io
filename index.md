@@ -4,3 +4,5 @@
 
 layout: home
 ---
+
+My quasi-random ramblings about the worlds of market data, data analysis techniques and everything else.
