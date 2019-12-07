@@ -5,6 +5,7 @@ date:   2019-11-14 18:50:28 +0000
 categories: jekyll update
 ---
 
+
 Python, with its powerful data analysis package pandas, has taken the world of financial markets analysis by storm. It enables researchers to perform sophisticated analysis that once required dedicated and expensive packages.
 
 With this article, we are going to wade into the water of financial market analysis using Python and pandas. We will plot a market price series and add a basic indicator. With the next articles, we will learn how to swim step by step by building a complete toolbox that can be used to create systems to trade stocks or other financial assets.
@@ -54,6 +55,9 @@ Let us put this concept to work and create some practical examples using Python,
 [Jupyter]: https://jupyter.org/
 [Jupyter tutorial]: https://www.dataquest.io/blog/jupyter-notebook-tutorial/
 
+<div class="prompt input_prompt">
+    In [1]:
+</div>
 
 ```python
 import pandas as pd
@@ -66,6 +70,8 @@ print('pandas version: ' + pd.__version__)
 print('matplotlib version: ' + mpl.__version__)
 ```
 
+'Out [1]:'
+
     Python version: 3.7.4 (default, Aug 13 2019, 15:17:50) 
     [Clang 4.0.1 (tags/RELEASE_401/final)]
     pandas version: 0.25.1
@@ -74,6 +80,9 @@ print('matplotlib version: ' + mpl.__version__)
 
 In **Jupyter**, it's always a good idea to display the chart within the notebook:
 
+<div class="prompt input_prompt">
+    In [2]:
+</div>
 
 ```python
 %matplotlib inline
@@ -86,12 +95,17 @@ Next, we load data into a DataFrame. I have obtained a CSV file of daily data fo
 [Yahoo! Finance]: https://uk.finance.yahoo.com/quote/SPY/history?p=SPY
 [my csv file here]: https://raw.githubusercontent.com/stebas101/TradingToolbox/master/data/SPY.csv
 
+<div class="prompt input_prompt">
+    In [3]:
+</div>
 
 ```python
 datafile = 'data/SPY.csv'
 data = pd.read_csv(datafile, index_col = 'Date')
 data
 ```
+
+'Out [3]:'
 
 
 
@@ -240,12 +254,17 @@ data
 
 As we can see, our data frame has six columns in total, one for Open, High, Low, Close, Adjusted Close prices and Volume respectively. To keep things simple, in our examples we will use only the Adjusted Close prices. That is the price series that reflects dividends, stock splits and other corporate events that affect stock returns.
 
+<div class="prompt input_prompt">
+    In [4]:
+</div>
 
 ```python
 close = data['Adj Close']
 close.index = pd.to_datetime(close.index) # This converts the index to pandas datetime
 close
 ```
+
+'Out [4]:'
 
 
 
@@ -268,10 +287,15 @@ close
 
 We can easily plot the price series for visual inspection:
 
+<div class="prompt input_prompt">
+    In [5]:
+</div>
 
 ```python
 close.plot()
 ```
+
+'Out [5]:'
 
 
 
@@ -286,11 +310,16 @@ close.plot()
 
 Pandas make calculating a 50-day moving average easy. Using the __rolling()__ method we set a 50-day window, on which we calculate the arithmetic average (mean) using the __mean()__ method: 
 
+<div class="prompt input_prompt">
+    In [6]:
+</div>
 
 ```python
 sma50 = close.rolling(window=50).mean()
 sma50
 ```
+
+'Out [6]:'
 
 
 
@@ -313,10 +342,15 @@ sma50
 
 As we expect, the first 49 values of the series are empty:
 
+<div class="prompt input_prompt">
+    In [7]:
+</div>
 
 ```python
 sma50.iloc[45:52]
 ```
+
+'Out [7]:'
 
 
 
@@ -335,6 +369,9 @@ sma50.iloc[45:52]
 
 We can now plot our first moving average on a chart. To improve the appearance, we can use a predefined style:
 
+<div class="prompt input_prompt">
+    In [8]:
+</div>
 
 ```python
 plt.style.use('fivethirtyeight')
@@ -346,6 +383,9 @@ We can now plot our chart:
 
 [here]: https://tonysyu.github.io/raw_content/matplotlib-style-gallery/gallery.html
 
+<div class="prompt input_prompt">
+    In [9]:
+</div>
 
 ```python
 plt.figure(figsize = (12,6))
@@ -356,6 +396,8 @@ plt.ylabel('Adjusted closing price ($)')
 plt.title('Price with a single Simple Moving Average')
 plt.legend()
 ```
+
+'Out [9]:'
 
 
 
@@ -384,6 +426,9 @@ Similarly, when the price crosses the moving average from above, a sell signal i
 
 Let's compare  two moving averages with different length, 20 and 50-day respectively:
 
+<div class="prompt input_prompt">
+    In [10]:
+</div>
 
 ```python
 sma20 = close.rolling(window=20).mean()
@@ -398,6 +443,8 @@ plt.title('Price with Two Simple Moving Averages')
 plt.legend()
 ```
 
+'Out [10]:'
+
 
 
 
@@ -411,6 +458,9 @@ plt.legend()
 
 Our chart is now getting a bit crowded. It would be nice to be able to zoom on a date range of our choice. We could use a __plt.xlim()__ instruction (e.g. `plt.xlim('2017-01-01','2018-12-31')`: just try to add it to the code above). However, I want to explore a different route: building a new dataframe that includes price and moving averages:
 
+<div class="prompt input_prompt">
+    In [11]:
+</div>
 
 ```python
 priceSma_df = pd.DataFrame({
@@ -421,6 +471,8 @@ priceSma_df = pd.DataFrame({
 
 priceSma_df
 ```
+
+'Out [11]:'
 
 
 
@@ -530,10 +582,15 @@ priceSma_df
 
 Having all of our series in a single dataframe makes it easy to create a snap plot:
 
+<div class="prompt input_prompt">
+    In [12]:
+</div>
 
 ```python
 priceSma_df.plot()
 ```
+
+'Out [12]:'
 
 
 
@@ -548,6 +605,9 @@ priceSma_df.plot()
 
 Although creating a snap plot with the dataframe own .plot() method is handy, I prefer to customize my chart using the individual function calls. Another benefit of having our all of our series in one dataframe is that we can easily select a **date range** (e.g. dates in 2017 and 2018, included) and plot only data within that range:
 
+<div class="prompt input_prompt">
+    In [13]:
+</div>
 
 ```python
 plt.figure(figsize = (12,6))
@@ -559,6 +619,8 @@ plt.ylabel('Adjusted closing price ($)')
 plt.title('Price with Two Simple Moving Averages - Selected Date Range')
 plt.legend()
 ```
+
+'Out [13]:'
 
 
 
@@ -595,12 +657,17 @@ Compared with the technique that uses just one single moving average and the pri
 
 If we can use two moving averages together, why not three then?
 
+<div class="prompt input_prompt">
+    In [14]:
+</div>
 
 ```python
 sma200 = close.rolling(window=200).mean()
 priceSma_df['SMA 200'] = sma200
 priceSma_df
 ```
+
+'Out [14]:'
 
 
 
@@ -721,6 +788,9 @@ priceSma_df
 
 
 
+<div class="prompt input_prompt">
+    In [15]:
+</div>
 
 ```python
 start = '2016'
@@ -736,6 +806,8 @@ plt.ylabel('Adjusted closing price ($)')
 plt.title('Price with Three Simple Moving Averages')
 plt.legend()
 ```
+
+'Out [15]:'
 
 
 
@@ -760,6 +832,9 @@ Python and pandas provide all the power and flexibility needed to research and b
 
 [technical indicators]: https://school.stockcharts.com/doku.php?id=technical_indicators
 
+<div class="prompt input_prompt">
+    In [ ]:
+</div>
 
 ```python
 
