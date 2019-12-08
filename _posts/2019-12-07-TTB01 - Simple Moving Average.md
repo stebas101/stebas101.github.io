@@ -100,7 +100,7 @@ Next, we load data into a DataFrame. I have obtained a CSV file of daily data fo
 [my csv file here]: https://raw.githubusercontent.com/stebas101/TradingToolbox/master/data/SPY.csv
 
 <div class="prompt input_prompt">
-    In [18]:
+    In [3]:
 </div>
 
 ```python
@@ -110,7 +110,7 @@ data
 ```
 
 <div class="prompt output_prompt">
-    Out [18]:
+    Out [3]:
 </div>
 
 
@@ -688,7 +688,7 @@ Compared with the technique that uses just one single moving average and the pri
 If we can use two moving averages together, why not three then?
 
 <div class="prompt input_prompt">
-    In [15]:
+    In [18]:
 </div>
 
 ```python
@@ -698,7 +698,7 @@ priceSma_df
 ```
 
 <div class="prompt output_prompt">
-    Out [15]:
+    Out [18]:
 </div>
 
 
@@ -821,7 +821,7 @@ priceSma_df
 
 
 <div class="prompt input_prompt">
-    In [22]:
+    In [19]:
 </div>
 
 ```python
@@ -840,7 +840,7 @@ plt.legend()
 ```
 
 <div class="prompt output_prompt">
-    Out [22]:
+    Out [19]:
 </div>
 
 
