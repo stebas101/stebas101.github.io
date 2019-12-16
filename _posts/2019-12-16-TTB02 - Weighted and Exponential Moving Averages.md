@@ -13,6 +13,8 @@ The Simple Moving Average is only one of several moving averages available that 
 
 In this article, we will explore how to calculate those two averages and how to ensure that the results match the definitions that we need to implement.
 
+> *(A version of this post was published on **[Towards Data Science](https://towardsdatascience.com/trading-toolbox-02-wma-ema-62c22205e2a9)** on October 10, 2019)*
+
 [1]: https://towardsdatascience.com/trading-toolbox-01-sma-7b8e16bd9388
 
 ### Weighted Moving Average
