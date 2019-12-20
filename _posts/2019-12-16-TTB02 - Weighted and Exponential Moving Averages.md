@@ -5,7 +5,7 @@ date:   2019-12-16 14:00:00 +0000
 categories: trading toolbox
 author: Stefano Basurto
 ---
-In the first article of the Financial Trading Toolbox series ([Building a Financial Trading Toolbox in Python: Simple Moving Average][1]), we discussed how to calculate a simple moving average, add it to a price series chart, and use it for investment and trading decisions.
+In the first article of the Financial Trading Toolbox series ([Building a Financial Trading Toolbox in Python: Simple Moving Average](https://towardsdatascience.com/trading-toolbox-01-sma-7b8e16bd9388)), we discussed how to calculate a simple moving average, add it to a price series chart, and use it for investment and trading decisions.
 The Simple Moving Average is only one of several moving averages available that can be applied to price series to build trading systems or investment decision frameworks. Among those, two other moving averages are commonly used among financial market analysts:
 
 - Weighted Moving Average (__WMA__)
@@ -14,8 +14,6 @@ The Simple Moving Average is only one of several moving averages available that 
 In this article, we will explore how to calculate those two averages and how to ensure that the results match the definitions that we need to implement.
 
 > *(A version of this post was published on **[Towards Data Science](https://towardsdatascience.com/trading-toolbox-02-wma-ema-62c22205e2a9)** on October 10, 2019)*
-
-[1]: https://towardsdatascience.com/trading-toolbox-01-sma-7b8e16bd9388
 
 ### Weighted Moving Average
 
