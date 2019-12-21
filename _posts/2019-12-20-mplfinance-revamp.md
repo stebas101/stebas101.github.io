@@ -12,21 +12,14 @@ If you, like me, are interested in using Matplotlib to create charts to study fi
 
 The API of the current *mpl-finance* library is, to be frank, quite cumbersome. It does not integrate quite well with the *pandas* data analysis framework, and creating a bar chart requires some data manipulation.
 
-The new version will change all this. It can be previewed by cloning the Github repository:
+The new version will change all this. To preview it, you just need to run:
 ```
-git clone https://github.com/matplotlib/mplfinance
+pip install mplfinance
 ```
-or by downloading the repository if you're not using Git: [https://github.com/matplotlib/mplfinance/archive/master.zip](https://github.com/matplotlib/mplfinance/archive/master.zip)
-
-To install the library make sure you `cd` into it to make it your working directory (it should contain *setup.py*), then run:
-```
-pip install mplfinance .
-```
-Note the '.' (dot) at the end of the instruction. It can then by imported as:
+Note that the name spelling has changed from the current version, which is installed as `mpl-finance` (and imported in Python code as `mpl_finance`). The new version is imported simply as:
 ```
 import mplfinance as mpf
 ```
-Note that the name has now no '_' nor '-' in it compared to the previous version.
 
 After loading our data in a `data` *pandas* dataframe with Open, High, Low and Close columns, creating a bar chart is as easy as typing:
 ```
