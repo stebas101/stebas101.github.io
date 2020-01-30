@@ -16,8 +16,8 @@
 title: Data Footprints
 email: stefano@datafootprints.info
 description: >- # this means to ignore newlines until "baseurl:"
-  Welcome to my blog on data analysis, programming, markets, trading, finance,
-  and anything else that may come to my mind.
+  A blog about data analysis and modelling, quantitative finance, programming and trading.
+  Seeing the world through the lens of data.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.datafootprints.info" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: stebas101

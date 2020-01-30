@@ -5,4 +5,6 @@
 layout: home
 ---
 
-My quasi-random ramblings about the worlds of market data, data analysis techniques and everything else.
+A blog about data analysis and modelling, quantitative finance, programming and trading.
+
+> Seeing the world through the lens of data
