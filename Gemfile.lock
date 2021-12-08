@@ -246,6 +246,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  addressable (~> 2.4)
   github-pages (= 202)
   jekyll-feed (~> 0.6)
   minima (~> 2.0)
