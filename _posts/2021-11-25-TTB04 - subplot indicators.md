@@ -19,7 +19,7 @@ With this article we want to explore how to create similar charts using Matplotl
 
 ### Multiple subplots with matplotlib
 
-At this stage we need to delve into some technical aspects of how Matplotlib works: That is how we can harness its multiple plots capabilities and craft publishing quality charts. All the code provided assumes that you are using **Jupyter Notebook**. If instead, you are using a more conventional text editor or the command line, you will need to add:
+At this stage we need to delve into some technical aspects of how Matplotlib works: this is how we can harness its multiple plots capabilities and craft publishing quality charts. All the code provided assumes that you are using **Jupyter Notebook**. If instead, you are using a more conventional text editor or the command line, you will need to add:
 ```
 plt.show()
 ```
@@ -33,7 +33,7 @@ You can see the first article on [moving averages](https://towardsdatascience.co
 
 When calling that method, *matplotlib* does a few things behind the scenes in order to create charts:
 
-- First, it creates an object called **figure**: this is the container where all of our charts are stored. A *figure* is created automatically and quietly, however, we can create it explicitly and access it when we need to pass some parameters, e.g. with the instruction:
+- First, it creates an object called **figure**: this is the container where all of our charts are stored. A *figure* is created automatically and quietly. However, we can create it explicitly and access it when we need to pass some parameters, e.g. with the instruction:
 ```fig = plt.figure(figsize=(12,6))```
 - On top of that, *matplotlib* creates an object called **axes** (do not confuse with *axis*): this object corresponds to a single subplot contained within the *figure*. Again, this action usually happens behind the scenes.
 
