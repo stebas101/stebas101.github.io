@@ -2,7 +2,7 @@
 layout: nbpost
 title:  "Python Trading Toolbox: A gentle introduction to backtesting"
 date:   2021-12-09 01:00:00 +0000
-categories: trading toolbox
+categories: trading-toolbox
 author: Stefano Basurto
 ---
 We started this series by introducing some indicators based on price. Our goal is to use indicators, along with price and volume, to make investment decisions: to choose when to buy or sell a financial asset.

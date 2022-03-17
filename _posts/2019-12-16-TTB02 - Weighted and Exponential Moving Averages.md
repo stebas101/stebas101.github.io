@@ -2,7 +2,7 @@
 layout: nbpost
 title:  "Python Trading Toolbox: Weighted and Exponential Moving Averages"
 date:   2019-12-16 14:00:00 +0000
-categories: trading toolbox
+categories: trading-toolbox
 author: Stefano Basurto
 ---
 In the first article of the Financial Trading Toolbox series ([Building a Financial Trading Toolbox in Python: Simple Moving Average](https://towardsdatascience.com/trading-toolbox-01-sma-7b8e16bd9388)), we discussed how to calculate a simple moving average, add it to a price series chart, and use it for investment and trading decisions.

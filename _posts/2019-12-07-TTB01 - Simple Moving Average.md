@@ -2,7 +2,7 @@
 layout: nbpost
 title:  "Building a Financial Trading Toolbox in Python: Simple Moving Average"
 date:   2019-12-07 12:00:00 +0000
-categories: trading toolbox
+categories: trading-toolbox
 author: Stefano Basurto
 ---
 
