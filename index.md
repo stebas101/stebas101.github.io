@@ -5,6 +5,4 @@
 layout: home
 ---
 
-A blog about data analysis and modelling, quantitative finance, programming and trading.
-
-> Seeing the world through the lens of data
+My explorations around the world of data analysis, machine learning, visualization and computer programming.
