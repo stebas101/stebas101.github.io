@@ -10,4 +10,4 @@ Join me as I share my journey through Data Science, Python, and all things relat
 
 With a previous experience in financial services and investment research, I bring a strategic approach to using data for decision-making. My tech stack includes Python, SQL, and tools like pandas, scikit-learn, and TensorFlow. I'm also fascinated by data visualization and skilled in programming languages like Java and JavaScript.
 
-I received a _laurea magistrale_ degree in Economics from Bocconi University (Milan, Italy). I am currently a CFA Charterholder and member of the [CFA Institute](https://www.cfainstitute.org).
+My educational background is in Economics. I am also a CFA Charterholder and member of the [CFA Institute](https://www.cfainstitute.org).

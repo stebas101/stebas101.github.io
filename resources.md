@@ -113,6 +113,9 @@ At the time of writing, I have just started with this title: I wish I had done t
 
 #### **Free** Online Learning
 
+- [fast.ai](https://fast.ai){:target="_blank"}
+Check out their free **Practical Deep Learning** course.
+
 - [Google’s Machine Learning Crash Course](https://developers.google.com/machine-learning/crash-course){:target="_blank"}
 
 - Andrew Ng's [Machine Learning course on Coursera](https://www.coursera.org/learn/machine-learning){:target="_blank"}  
