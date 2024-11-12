@@ -47,4 +47,5 @@ header_pages:
 #   - vendor/ruby/
 
 show_excerpts: true
-google_analytics: UA-154199438-1
+# google_analytics: UA-154199438-1
+google_analytics: 400734064
