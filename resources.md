@@ -4,10 +4,9 @@ title: Learning Resources
 permalink: /learning/
 ---
 
-Data Science is an interdisciplinary field that blends elements of Statistics, Computer Science and Mathematics. On this page I am sharing some learning resources that I found useful: I hope this can help other learners to get started. Most of those resources are even freely available.  
+A collection of learning resources on computer programming and data science.
 
-## Computer Programming
-When it comes to coding for data science, the choice of programming languages boils down to either Python or R. My current focus is on Python and here are some resources that I can recommend.  
+## Computer Programming in Python
 
 #### **Free** Books
 

@@ -5,4 +5,4 @@
 layout: home
 ---
 
-My explorations around the world of data analysis, machine learning, visualization and computer programming.
+My personal website and blog, where I share my thoughts on data crunching, code munching, and ramblings in the worlds of technology, finance, and beyond.

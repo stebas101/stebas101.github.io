@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Data Footprints
-email: stefano@datafootprints.info
+email: stefano@datafootprints.com
 description: >- # this means to ignore newlines until "baseurl:"
   My explorations around the world of data analysis, machine learning, visualization and computer programming.
 baseurl: "" # the subpath of your site, e.g. /blog
@@ -26,7 +26,6 @@ linkedin_username: stefanobasurto
 # Build settings
 markdown: kramdown
 theme: minima
-# theme: jekyll-theme-tactile
 plugins:
   - jekyll-feed
 
@@ -47,5 +46,4 @@ header_pages:
 #   - vendor/ruby/
 
 show_excerpts: true
-# google_analytics: UA-154199438-1
 google_analytics: 400734064
