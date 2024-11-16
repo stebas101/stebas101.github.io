@@ -1,0 +1,6 @@
+- personal profile: about me
+- job description
+- layout: posts vs single (fix bottom matter)
+- tables in nbposts
+- check defaults - related, copycontent
+- add teasers to posts

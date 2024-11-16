@@ -1,5 +1,6 @@
 ---
-layout: nbpost
+layout     : single
+usemathjax : true
 title:  "Python Trading Toolbox: introducing OHLC charts with Matplotlib"
 date:   2020-04-16 10:00:00 +0000
 categories: trading-toolbox

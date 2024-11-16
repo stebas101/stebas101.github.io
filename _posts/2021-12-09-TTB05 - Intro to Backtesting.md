@@ -1,5 +1,6 @@
 ---
-layout: nbpost
+layout     : single
+usemathjax : true
 title:  "Python Trading Toolbox: A gentle introduction to backtesting"
 date:   2021-12-09 01:00:00 +0000
 categories: trading-toolbox

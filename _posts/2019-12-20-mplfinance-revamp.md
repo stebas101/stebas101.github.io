@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: single
 title:  "Matplotlib OHLC and Candlestick Charts Get a Revamp"
 date:   2019-12-20 14:00:00 +0000
 categories: tools

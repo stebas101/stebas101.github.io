@@ -1,0 +1,83 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+$twitter-color: #55acee;
+
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+//
+// For newer notebook based posts:
+//
+
+%nb-prompt {
+    font-family: $monospace;
+    font-size: 15px;
+}
+
+.nb-input {
+    @extend %nb-prompt;
+    color: #303F9F;
+}
+
+.nb-output {
+    @extend %nb-prompt;
+    color: #D84315;
+}
+
+//
+// classes used in older TTB posts:
+//
+
+.prompt {
+    font-family: monospace;
+    font-size: 15px;
+}
+
+.input_prompt {
+    color: #303F9F;
+}
+
+.output_prompt {
+    color: #D84315;
+}
+
+.dataframe tbody tr th:only-of-type {
+    vertical-align: middle;
+}
+  
+.dataframe tbody tr th {
+vertical-align: top;
+}
+  
+.dataframe thead th {
+text-align: right;
+}
+
+// table {
+//     font-size: 14px;
+//     line-height: 20px;
+//     font-family: Arial, Helvetica, sans-serif;
+//     box-sizing: border-box;
+// }
+
+// td {
+//     text-align: right;
+// }
+
+//
+// end
+//

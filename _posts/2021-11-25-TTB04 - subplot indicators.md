@@ -1,5 +1,6 @@
 ---
-layout: nbpost
+layout     : single
+usemathjax : true
 title:  "Python Trading Toolbox: step up your charts with indicator subplots"
 date:   2021-11-25 01:00:00 +0000
 categories: trading-toolbox

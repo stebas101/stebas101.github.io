@@ -1,5 +1,6 @@
 ---
-layout: nbpost
+layout     : single
+usemathjax : true
 title:  "Python Trading Toolbox: Weighted and Exponential Moving Averages"
 date:   2019-12-16 14:00:00 +0000
 categories: trading-toolbox

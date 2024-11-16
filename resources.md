@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: single
 title: Learning Resources
-permalink: /learning/
+permalink: /resources/
 ---
 
 A collection of learning resources on computer programming and data science.
