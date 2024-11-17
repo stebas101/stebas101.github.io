@@ -17,9 +17,9 @@ minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "
 # Site Settings
 locale                   : "en-GB"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
-title                    : "Datafootprints"
+title                    : "Data Footprints"
 title_separator          : "-"
-subtitle                 : "" # site tagline that appears below site title in masthead
+subtitle                 : "Inspiring insight through curiosity and exploration" # site tagline that appears below site title in masthead
 name                     : "Stefano Basurto"
 description              : "My explorations around the world of data analysis, machine learning, visualization and computer programming."
 url                      : "https://www.datafootprints.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
@@ -106,6 +106,7 @@ social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://github.com/stebas101"
     - "https://x.com/stebas101"
     - "https://linkedin.com/in/stefanobasurto"
 
@@ -121,9 +122,10 @@ analytics:
 author:
   name             : "Stefano Basurto"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "London, UK"
-  email            : "stebas@datafootprints.com"
+  # bio              : "Coder, data artist and performance scientist."
+  bio              : "Turning data into insight with code."
+  # location         : "London, UK"
+  # email            : ""
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -145,7 +147,7 @@ author:
       url: "https://linkedin.com/in/stefanobasurto"
     # - label: "Medium"
     #   icon: "fab fa-fw fa-medium"
-    #   url: "https://medium.com"
+    #   url: "https://medium.com/@stebas101"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -164,7 +166,7 @@ footer:
       url: "https://linkedin.com/in/stefanobasurto"
     # - label: "Medium"
     #   icon: "fab fa-fw fa-medium"
-    #   url: "https://medium.com"
+    #   url: "https://medium.com/@stebas101"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:

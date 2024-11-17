@@ -3,4 +3,4 @@ layout: home
 author_profile: true
 ---
 
-My personal website and blog, where I share my thoughts on data crunching, code munching, and ramblings in the worlds of technology, finance, and beyond.
+The personal website and blog of Stefano Basurto --- where data crunching meets code munching. A space for data deep-dives, coding adventures, and musings on tech, finance, and beyond.
