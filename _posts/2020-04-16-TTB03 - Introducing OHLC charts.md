@@ -1,9 +1,12 @@
 ---
-layout: nbpost
-title:  "Python Trading Toolbox: introducing OHLC charts with Matplotlib"
-date:   2020-04-16 10:00:00 +0000
+layout     : single
+usemathjax : true
+title :  "Python Trading Toolbox: introducing OHLC charts with Matplotlib"
+date  :   2020-04-16 10:00:00 +0000
 categories: trading-toolbox
-author: Stefano Basurto
+author : Stefano Basurto
+header :
+  teaser : /assets/images/TTB03 - Introducing OHLC charts_9_0.png
 ---
 In the first two posts of the Financial Trading Toolbox Series, we started exploring how to compute some basic indicators based on price ([simple moving averages](/trading/toolbox/2019/12/07/TTB01-Simple-Moving-Average.html) and [other moving averages](/trading/toolbox/2019/12/16/TTB02-Weighted-and-Exponential-Moving-Averages.html)) and how to plot them on a chart together with the price. In those examples, we considered daily price data and used the closing price to represent each day of trading. Quite obviously, financial instruments trade throughout the whole day generating more than one price. The closing price is one of the most relevant prices but does not tell the whole story of what happened during the trading day.
 

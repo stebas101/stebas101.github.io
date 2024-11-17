@@ -1,9 +1,11 @@
 ---
-layout: post
+layout: single
 title:  "Matplotlib OHLC and Candlestick Charts Get a Revamp"
 date:   2019-12-20 14:00:00 +0000
 categories: tools
 author: Stefano Basurto
+header :
+  teaser : /assets/images/t-fig01.png
 ---
 
 Matplotlib enables Python users to create beautiful and publication quality data visualizations. However, the capability to create OHLC and candlestick charts has so far been limited. The *mpl-finance* library, the Matplotlib component that takes care of drawing those charts, had been deprecated and relegated to a separate and, until recently, neglected package.

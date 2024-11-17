@@ -1,9 +1,12 @@
 ---
-layout: nbpost
+layout     : single
+usemathjax : true
 title:  "Building a Financial Trading Toolbox in Python: Simple Moving Average"
 date:   2019-12-07 12:00:00 +0000
 categories: trading-toolbox
 author: Stefano Basurto
+header :
+  teaser : /assets/images/TTB01 - Simple Moving Average_27_1.png
 ---
 
 Python, with its powerful data analysis package pandas, has taken the financial markets analysis world by storm. It enables researchers to perform sophisticated analysis that once required dedicated and expensive packages.

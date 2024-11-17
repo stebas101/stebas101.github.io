@@ -1,13 +1,17 @@
 ---
-layout: page
-title: About
+layout: single
+title: About Me
 permalink: /about/
 ---
 
-Welcome to my blog! My name is Stefano Basurto, and I'm passionate about using data analysis, machine learning and visualization to uncover insights on business, investments and the world around us.
+## Turning data into insight with code
 
-Join me as I share my journey through Data Science, Python, and all things related to data technologies. I hope you'll find useful information and inspiration here.
+My name is Stefano Basurto, and I am passionate about building solutions to access, visualise and get insights from data.
 
-With a previous experience in financial services and investment research, I bring a strategic approach to using data for decision-making. My tech stack includes Python, SQL, and tools like pandas, scikit-learn, and TensorFlow. I'm also fascinated by data visualization and skilled in programming languages like Java and JavaScript.
+I embraced Python as my main programming language over a decade ago and have since used it extensively to craft solutions for data analysis, machine learning and web development. Alongside Python, I code in JavaScript, Java and R, and have strong experience with databases, including SQL (MySQL, PostgreSQL, SQLite) and _object-relational mapping_ (ORM).
 
-My educational background is in Economics. I am also a CFA Charterholder and member of the [CFA Institute](https://www.cfainstitute.org).
+More recently, I’ve focused on backend development, leveraging frameworks like Flask and integrating cloud technologies for scalable deployments on Linux systems and cloud platforms.
+
+Before transitioning into software development, I worked as an investment research analyst in the financial services industry. I earned the CFA charterholder qualification and matured knowledge that can give me a strong edge with financial data and fintech products.
+
+As an enthusiastic lifelong learner, I am always eager to keep abreast of the latest technological developments and ready to apply them to create cutting-edge products.

@@ -1,9 +1,12 @@
 ---
-layout: nbpost
+layout     : single
+usemathjax : true
 title:  "Python Trading Toolbox: step up your charts with indicator subplots"
 date:   2021-11-25 01:00:00 +0000
 categories: trading-toolbox
 author: Stefano Basurto
+header:
+  teaser : /assets/images/TTB04-subplot indicators_24_0.png
 ---
 After a several months-long hiatus, I can finally resume posting to the Trading Toolbox Series. We started this series by learning how to plot indicators (specifically: [moving averages](https://towardsdatascience.com/trading-toolbox-01-sma-7b8e16bd9388)) on the top of a price chart. Moving averages belong to a wide group of indicators, called **overlay indicators**, that share the same scale as the price and can, therefore, be plotted on the same chart. Other technical indicators, however, do not have this advantage and we need to plot them on a separate area, sometimes called a *subplot*.
 
