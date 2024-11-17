@@ -320,6 +320,7 @@ DEPENDENCIES
   jekyll-gist (~> 1.5.0)
   jekyll-include-cache (~> 0.2.1)
   jekyll-paginate (~> 1.1.0)
+  jekyll-remote-theme (~> 0.4.3)
   jekyll-sitemap (~> 1.4.0)
   minimal-mistakes-jekyll
 
