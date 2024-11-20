@@ -11,7 +11,7 @@
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
 # theme                    : "minimal-mistakes-jekyll"
-remote_theme           : "mmistakes/minimal-mistakes"
+remote_theme             : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
@@ -121,7 +121,7 @@ analytics:
 # Site Author
 author:
   name             : "Stefano Basurto"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  avatar           : "/assets/images/sax_music.jpeg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   # bio              : "Coder, data artist and performance scientist."
   bio              : "Turning data into insight with code."
   # location         : "London, UK"
@@ -136,9 +136,6 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/stebas101"
     - label: "X"
       icon: "fab fa-fw fa-square-x-twitter"
       url: "https://x.com/stebas101"
@@ -148,6 +145,9 @@ author:
     # - label: "Medium"
     #   icon: "fab fa-fw fa-medium"
     #   url: "https://medium.com/@stebas101"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/stebas101"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -155,9 +155,6 @@ author:
 # Site Footer
 footer:
   links:
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url:  "https://github.com/stebas101"
     - label: "X"
       icon: "fab fa-fw fa-square-x-twitter"
       url: "https://x.com/stebas101"
@@ -167,6 +164,9 @@ footer:
     # - label: "Medium"
     #   icon: "fab fa-fw fa-medium"
     #   url: "https://medium.com/@stebas101"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url:  "https://github.com/stebas101"
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url:

@@ -6,3 +6,7 @@
 - front page layout: showing posts matrix
 - index.html -- pagination templates
 - 'sharing' buttons at the bottom of 'single'layout pages
+- jekyll-remote-theme as plugin in config?
+- SEO and Google/Bing - jekyll-seo-tag
+- fix redirection of stebas101.github.io
+- endpoints for categories e.g. .../tutorials/
