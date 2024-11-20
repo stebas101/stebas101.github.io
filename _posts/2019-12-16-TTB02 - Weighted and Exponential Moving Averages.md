@@ -5,6 +5,7 @@ title:  "Python Trading Toolbox: Weighted and Exponential Moving Averages"
 date:   2019-12-16 14:00:00 +0000
 categories: trading-toolbox
 author: Stefano Basurto
+classes: wide
 header :
   teaser : /assets/images/TTB02 - Weighted and Exponential Moving Averages_13_2.png
 ---

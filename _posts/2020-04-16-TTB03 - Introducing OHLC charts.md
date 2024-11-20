@@ -5,6 +5,7 @@ title :  "Python Trading Toolbox: introducing OHLC charts with Matplotlib"
 date  :   2020-04-16 10:00:00 +0000
 categories: trading-toolbox
 author : Stefano Basurto
+classes: wide
 header :
   teaser : /assets/images/TTB03 - Introducing OHLC charts_9_0.png
 ---

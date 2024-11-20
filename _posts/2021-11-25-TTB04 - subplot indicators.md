@@ -5,6 +5,7 @@ title:  "Python Trading Toolbox: step up your charts with indicator subplots"
 date:   2021-11-25 01:00:00 +0000
 categories: trading-toolbox
 author: Stefano Basurto
+classes: wide
 header:
   teaser : /assets/images/TTB04-subplot indicators_24_0.png
 ---

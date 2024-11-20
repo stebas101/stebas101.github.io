@@ -8,35 +8,19 @@ A collection of learning resources on computer programming and data science.
 
 ## Computer Programming in Python
 
-#### **Free** Books
+For **free** Python books, check out [my post](/resources/free_pyton_books/). They're all excellent learning options.
 
-- **Think Python**  
-by Allen B. Downey  
-Green Tea Press   
------  
-This book is one of the best introduction to Python programming for complete beginners that I've found. The basic concepts are explained very clearly, and there's plenty of programming exercises for practice. Available in PDF and HTML on the [Green Tea Press website](https://greenteapress.com/wp/think-python-2e/){:target="_blank"}. Check out the other free titles from the same author (*Think Bayes*, *Think Stats*, *Think Java* and more).
+#### Python and SQL Books (non-free)
+---  
 
-- **Python for Everybody**  
-by Charles Severance  
------  
-Another excellent introduction for people new to programming. It serves a textbook for courses available on Coursera, edX, FutureLearn and [freeCodeCamp](https://www.youtube.com/watch?v=8DvywoWv6fI){:target="_blank"}. I didn't actually use this book when I had to learn Python from scratch since I found out only recently, but I think it's worth adding to the list. It can be downloaded from the [author's website](http://pythonlearn.com/){:target="_blank"}. Also available online on [Trinket](https://books.trinket.io/pfe/index.html){:target="_blank"}.  
-
-- **Automate the boring stuff with Python**   
-by Al Sweigart  
-No Starch Press  
------  
-This is a go-to book after you've mastered the basics of the language. It offers coding practice with interesting examples like sending email, manipulating files, web scraping, automating spreadsheets and image processing. There's a free HTML version on the book's website: [automatetheboringstuff.com](https://automatetheboringstuff.com/){:target="_blank"}. More free Python books from the same author on: [inventwithpython.com](https://inventwithpython.com/){:target="_blank"}.
-
-#### Other Books (non-free)
-
-- **Python for Data Analysis**  
+**Python for Data Analysis**  
 by Wes McKinney  
 2017, O'Reilly  
 -----  
 The *pandas* library is what makes Python a data analysis powerhouse and this title is written by the creator of *pandas* himself.  
 I used the second edition of this book. However, in my opinion, it's already outdated: that's how fast this library has evolved since the book's publication. In any case, I still have to find a better resource to learn *pandas* in detail.  A third edition is on the way, and I would wait for that if I had to purchase a copy now.  
 
-- **Learning SQL: Generate, Manipulate, and Retrieve Data**  
+**Learning SQL: Generate, Manipulate, and Retrieve Data**  
 by Alan Beaulieu  
 2020, O'Reilly  
 -----  
@@ -44,6 +28,7 @@ Data scientist are often required to use SQL to handle large datasets.
 This text is not for absolute beginners, but it's still one of the best resources to master the power of SQL. I used the second edition of this book to to get my grips on SQL years ago, and I keep going back to it when I need to refresh my knowledge.  
 
 #### Python MOOCs
+---  
 
 There are a several online courses that can help to set some foundations of coding with Python if you, like me, don't come from a computing background. Here are some that I liked most.
 
@@ -64,10 +49,10 @@ by Harvard University on edX.
 
 #### **Free** Books
 
-- [**Introduction to Modern Statistics**](https://www.openintro.org/book/ims/){:target="_blank"}  
+[**Introduction to Modern Statistics**](https://www.openintro.org/book/ims/){:target="_blank"}  
 by Mine Çetinkaya-Rundel and Johanna Hardin
 
-- [**OpenIntro Statistics**](https://www.openintro.org/book/os/){:target="_blank"}  
+[**OpenIntro Statistics**](https://www.openintro.org/book/os/){:target="_blank"}  
 by David Diez, Mine Çetinkaya-Rundel and Christopher Barr  
 -----  
 Both books can be downladed for free from [OpenIntro](https://www.openintro.org/){:target="_blank"}.  
@@ -96,7 +81,7 @@ Read for free on [probability4datascience.com/](https://probability4datascience.
 
 #### **Free** Books
 
-- **An Introduction to Statistical Learning (with applications in R)**  
+**An Introduction to Statistical Learning (with applications in R)**  
 by G. James, D. Witten, T. Hastie, R. Tibshirani  
 Springer Verlag  
 -----  
@@ -104,7 +89,7 @@ One of the best books around on Statistical Learning. It can be downloaded for f
 
 #### Other Books (non-free)  
 
-- **Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow**  
+**Hands-on Machine Learning with Scikit-Learn, Keras, and TensorFlow**  
 by Aurélien Géron  
 2019, O'Reilly  
 -----  

@@ -5,6 +5,7 @@ title:  "Python Trading Toolbox: A gentle introduction to backtesting"
 date:   2021-12-09 01:00:00 +0000
 categories: trading-toolbox
 author: Stefano Basurto
+classes: wide
 header:
   teaser: /assets/images/TTB05 - Intro to Backtesting_38_0.png
 ---
