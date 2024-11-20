@@ -110,7 +110,7 @@ _by Harry J.W. Percival_
 -----  
 This book will guide you through the process of Test-Driven Programming (TDD) by developing a web app using _Django_ ans automating its tests using _Selenium_.
 
-[**TTest-Driven Development with Python**](https://www.obeythetestinggoat.com/){: .btn .btn--light-outline target="_blank"}
+[**Test-Driven Development with Python**](https://www.obeythetestinggoat.com/){: .btn .btn--light-outline target="_blank"}
 
 ---
 
