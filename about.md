@@ -1,7 +1,8 @@
 ---
-layout: single
-title: About Me
-permalink: /about/
+layout      : single
+title       : About Me
+permalink   : /about/
+author_profile : true
 ---
 
 ## Turning data into insight with code
