@@ -1,7 +1,7 @@
 ---
 layout     : single
 usemathjax : false
-title:  "Free Python books: My top picks"
+title:  "Free Python books: My Top Picks"
 categories: resources
 header :
 #   overlay_color: "#333"
