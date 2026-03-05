@@ -136,6 +136,9 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
+    - label: "BlueSky"
+      icon: "fab fa-fw fa-square-bluesky"
+      url: "https://stebas101.bsky.social"
     - label: "X"
       icon: "fab fa-fw fa-square-x-twitter"
       url: "https://x.com/stebas101"
@@ -155,6 +158,9 @@ author:
 # Site Footer
 footer:
   links:
+    - label: "BlueSky"
+      icon: "fab fa-fw fa-square-bluesky"
+      url: "https://stebas101.bsky.social"
     - label: "X"
       icon: "fab fa-fw fa-square-x-twitter"
       url: "https://x.com/stebas101"
