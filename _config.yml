@@ -107,6 +107,7 @@ social:
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
     - "https://github.com/stebas101"
+    - "https://stebas101.bsky.social"
     - "https://x.com/stebas101"
     - "https://linkedin.com/in/stefanobasurto"
 
