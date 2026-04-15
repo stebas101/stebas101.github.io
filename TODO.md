@@ -1,4 +1,5 @@
 # TODO
+
 - fix background of pictures in posts
 - tables in nbposts
 - header and overlay in home page

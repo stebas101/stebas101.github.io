@@ -1,18 +1,16 @@
 ---
 layout      : single
-title       : About Me
+title       : About
 permalink   : /about/
 author_profile : true
 ---
 
-## Turning data into insight with code
+## Turning data into insight through code
 
-My name is Stefano Basurto, and I am passionate about building solutions to access, visualise and get insights from data.
+My name is Stefano Basurto, and I am passionate about turning data into meaningful insights and original products. As a data-driven builder, I focus on creating analytics and visualisation tools for financial markets and business use cases.
 
-I embraced Python as my main programming language over a decade ago and have since used it extensively to craft solutions for data analysis, machine learning and web development. Alongside Python, I code in JavaScript, Java and R, and have strong experience with databases, including SQL (MySQL, PostgreSQL, SQLite) and _object-relational mapping_ (ORM).
+My name is Stefano Basurto, and I focus on transforming data into meaningful insights and practical products. As a data-driven builder, I create analytics and visualisation tools for financial markets and business applications.
 
-More recently, I’ve focused on backend development, leveraging frameworks like Flask and integrating cloud technologies for scalable deployments on Linux systems and cloud platforms.
+Before transitioning into software development, I worked in financial services as an investment research analyst. This experience gives me a strong edge in working with financial data and building fintech solutions.
 
-Before transitioning into software development, I worked as an investment research analyst in the financial services industry. I earned the CFA charterholder qualification and matured knowledge that can give me a strong edge with financial data and fintech products.
-
-As an enthusiastic lifelong learner, I am always eager to keep abreast of the latest technological developments and ready to apply them to create cutting-edge products.
+I hold a degree in Economics and am a CFA Charterholder. I am currently completing a Master’s degree in *Computer Science with Data Analytics*, further strengthening my ability to design and build robust, data-driven systems.

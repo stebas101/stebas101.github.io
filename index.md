@@ -6,4 +6,4 @@ author_profile: true
 # entries_layout: grid
 ---
 
-The personal website and blog of Stefano Basurto --- where data crunching meets code munching. A space for data deep-dives, coding adventures, and musings on tech, finance, and beyond.
+The personal website of Stefano Basurto — building data-driven tools and insights for financial markets, trading, and business applications. Exploring analytics, visualisation, and the craft of turning data into products.
